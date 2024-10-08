@@ -8,7 +8,7 @@ const {getSingleProductController} = require("../controllers/getSingleProductCon
 const {upload} = require('../middleware/fileUpload')
 
 router.post("/products", upload.single("image"), productController);
-router.get("/products", getProductController);
+router.get("/", getProductController);
 router.get("/products/:index", getSingleProductController);
 
 module.exports = router;
