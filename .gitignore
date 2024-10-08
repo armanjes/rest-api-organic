@@ -1,0 +1,44 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment Variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.sqlite
+*.db
+*.db-journal
+
+# Directories
+uploads/
+dist/
+build/
+coverage/
+temp/
+tmp/
+.cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Debugging files
+*.pid
+*.seed
+*.pid.lock
+
+# Sentry DSN and other security files
+.sentryclirc
