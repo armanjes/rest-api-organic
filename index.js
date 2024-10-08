@@ -17,7 +17,7 @@ db.once("open", () => console.log("Database connection successful!"));
 // middlewares
 app.use(cors());
 app.use(express.json());
-app.use("/api", router);
+app.use("/", router);
 app.use("/api", router);
 
 app.listen(APP_PORT, () => console.log(`listening ${APP_PORT}`));
